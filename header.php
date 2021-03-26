@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Shop</title>
     <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="./html template/favicon.png" type="image/gif" sizes="16x16">
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- Owl-carousel CDN -->
@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="./style.css">
+    <?php
+      // require functions.php file
+      require('functions.php');
+    ?>
 </head>
 <body>
     <!-- start #header -->
